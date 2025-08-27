@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+from escpos.printer import Usb
+from PIL import Image
+
 import sys
 import os
 import argparse
 import subprocess
 import tempfile
-from escpos.printer import Usb
-from PIL import Image
 import textwrap
 
 # Global variables
